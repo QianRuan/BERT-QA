@@ -1,7 +1,7 @@
 ## 1.Local setup
 ### create annaconda envrioment
 <br>conda create -n tfptpy37 python=3.7
-<br>conda activate tfptpy37
+<br>source activate tfptpy37
 ### install required packages
 <br>conda install -y pytorch torchvision cudatoolkit=10.0 -c pytorch
 <br>conda install -y tensorflow-gpu==2.0
@@ -28,5 +28,12 @@
 ### create output folder
 <br>mkdir squadOutput
 ### NOW: you can start training!
+<br>bash squad-train-bert1.sh
 
 ## 2.Docker image
+<br>docker pull ruanqian/bertqa
+<br>docker run --name bertqaContainer -d ruanqian/bertqa
+<br>docker exec -it bertqaContainer /bin/bash
+<br>cd BERT-QA
+### NOW: you can start training!
+<br>bash squad-train-bert1.sh
