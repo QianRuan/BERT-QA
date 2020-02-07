@@ -32,8 +32,10 @@
 
 ## 2.Docker image
 <br>docker pull ruanqian/bertqa
-<br>docker run --name bertqaContainer -d ruanqian/bertqa
+<br>docker run -it --name bertqaContainer -d ruanqian/bertqa
 <br>docker exec -it bertqaContainer /bin/bash
 <br>cd BERT-QA
 ### NOW: you can start training!
 <br>bash squad-train-bert1.sh
+
+## 3.training metrics shown with tensorboard
