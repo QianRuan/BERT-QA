@@ -11,7 +11,7 @@
 <br>conda install -y -c anaconda git
 <br>conda install -y -c conda-forge git-bash 
 ### clone this project
-<br>git clone https://gitlab.tubit.tu-berlin.de/QU-Projects-ML-NLP-WS-2019-20/BERT-QA.git
+<br>git clone https://github.com/QianRuan/BERT-QA.git
 ### make sure that you are in the project folder
 <br>cd BERT-QA
 <br>git clone https://github.com/huggingface/transformers
